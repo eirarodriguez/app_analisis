@@ -32,17 +32,17 @@ https://lesionescutaneas.streamlit.app/
 ## Ejecución de la aplicación en local
 Si deseas probar la aplicación en tu propio ordenador, sigue estos sencillos pasos:
 
-### 1. Requisitos previos
+#### 1. Requisitos previos
 Asegúrate de tener instalado [python](https://www.python.org/).
 
-### 2. Preparar los archivos
+#### 2. Preparar los archivos
 Abre tu terminal y descarga el código:
 ```bash
 git clone [https://github.com/eirarodriguez/app_analisis.git](https://github.com/eirarodriguez/app_analisis.git)
 cd app_analisis
 ```
 
-### 3. Crear y activar un entorno virtual (Recomendado)
+#### 3. Crear y activar un entorno virtual (Recomendado)
 Esto crea un espacio aislado para que las librerías no choquen con otros proyectos:
 
 **En Windows:**
@@ -55,12 +55,12 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 ```
-### 4. Instalación completa de dependencias
+#### 4. Instalación completa de dependencias
 Con el entorno activado, instala todas las librerías necesarias ejecutando:
 ```bash
 pip install -r requirements.txt
 ```
-### 5. Lanzar la aplicación
+#### 5. Lanzar la aplicación
 Una vez finalizada la instalación, ejecuta el siguiente comando:
 ```bash
 streamlit run app.py
