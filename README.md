@@ -25,9 +25,11 @@ Para que la aplicación funcione correctamente, este repositorio incluye:
   - `label_encoder.pkl` y `columnas_meta.pkl`: Codificadores de las etiquetas y la estructura de los datos clínicos.
 
 ---
+## Acceso Directo (Versión en la Nube)
+La aplicación se encuentra desplegada y disponible públicamente en:
+https://lesionescutaneas.streamlit.app/
 
-## Cómo ejecutar la aplicación en local
-
+## Ejecución de la aplicación en local
 Si deseas probar la aplicación en tu propio ordenador, sigue estos sencillos pasos:
 
 ### 1. Requisitos previos
@@ -43,17 +45,21 @@ Esto crea un espacio aislado para que las librerías no choquen con otros proyec
 ```bash
 python -m venv venv
 venv\Scripts\activate
+```
 **En macOS / Linux:**
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-
+```
 ### 4. Instalación completa de dependencias
 Con el entorno activado, instala todas las librerías necesarias ejecutando:
 ```bash
 pip install -r requirements.txt
-
+```
 ### 5. Lanzar la aplicación
 Una vez finalizada la instalación, ejecuta el siguiente comando:
 ```bash
 streamlit run app.py
+```
+###⚠️ Aviso Legal / Disclaimer
+Esta aplicación ha sido desarrollada con fines académicos dentro del marco del Máster en Ingeniería Biomédica. Las predicciones tienen carácter orientativo y estadístico basado en los datos de entrenamiento. Esta herramienta no sustituye bajo ningún concepto el diagnóstico de un dermatólogo profesional. Ante cualquier duda sobre una lesión cutánea, consulte siempre con un especialista.
