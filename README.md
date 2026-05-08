@@ -33,7 +33,7 @@ https://lesionescutaneas.streamlit.app/
 Si deseas probar la aplicación en tu propio ordenador, sigue estos sencillos pasos:
 
 ### 1. Requisitos previos
-Asegúrate de tener instalado **Python 3.9 o superior**. Puedes descargarlo en [python.org](https://www.python.org/).
+Asegúrate de tener instalado [python](https://www.python.org/).
 
 ### 2. Preparar los archivos
 Descarga este repositorio y abre una terminal (o PowerShell / Anaconda Prompt) en la carpeta donde se encuentren los archivos.
@@ -61,5 +61,5 @@ Una vez finalizada la instalación, ejecuta el siguiente comando:
 ```bash
 streamlit run app.py
 ```
-###⚠️ Aviso Legal / Disclaimer
+### ⚠️ Aviso Legal 
 Esta aplicación ha sido desarrollada con fines académicos dentro del marco del Máster en Ingeniería Biomédica. Las predicciones tienen carácter orientativo y estadístico basado en los datos de entrenamiento. Esta herramienta no sustituye bajo ningún concepto el diagnóstico de un dermatólogo profesional. Ante cualquier duda sobre una lesión cutánea, consulte siempre con un especialista.
