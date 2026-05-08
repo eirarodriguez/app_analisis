@@ -36,7 +36,11 @@ Si deseas probar la aplicación en tu propio ordenador, sigue estos sencillos pa
 Asegúrate de tener instalado [python](https://www.python.org/).
 
 ### 2. Preparar los archivos
-Descarga este repositorio y abre una terminal (o PowerShell / Anaconda Prompt) en la carpeta donde se encuentren los archivos.
+Abre tu terminal y descarga el código:
+```bash
+git clone [https://github.com/eirarodriguez/app_analisis.git](https://github.com/eirarodriguez/app_analisis.git)
+cd app_analisis
+```
 
 ### 3. Crear y activar un entorno virtual (Recomendado)
 Esto crea un espacio aislado para que las librerías no choquen con otros proyectos:
